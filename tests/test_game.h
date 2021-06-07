@@ -2,9 +2,9 @@
 #include <gmock/gmock-matchers.h>
 #include <iostream>
 #include <cstdlib>
-#include "tictac.h"
+#include "game.h"
 
-TEST(tictac_drawBoard, positive)
+TEST(game_drawBoard, positive)
 {
 
     std::string output_text = " 1 | 2 | 3 \n-----------\n 4 | 5 | 6 \n-----------\n 7 | 8 | 9 \n";
@@ -23,7 +23,7 @@ TEST(tictac_drawBoard, positive)
 
 }
 
-TEST(tictac_getInput, negative){
+TEST(game_getInput, negative){
 
 
     std::string output_text = "INVALID POSITION, TRY AGAIN...\n";
@@ -39,7 +39,7 @@ TEST(tictac_getInput, negative){
 
 
 }
-TEST(tictac_getInput, negative2){
+TEST(game_getInput, negative2){
 
 
     std::string output_text = "INVALID POSITION, TRY AGAIN...\n";
@@ -56,7 +56,7 @@ TEST(tictac_getInput, negative2){
 
 }
 
-TEST(tictac_getInput, positive){
+TEST(game_getInput, positive){
 
 
     std::string output_text = " 1 | 2 | 3 \n-----------\n 4 | X | 6 \n-----------\n 7 | 8 | 9 \n";
@@ -75,7 +75,7 @@ TEST(tictac_getInput, positive){
 
 }
 
-TEST(tictac_getInput, positive2){
+TEST(game_getInput, positive2){
 
     player = O;
     //возвращаем игровое поле в исходное состояние
@@ -95,14 +95,14 @@ TEST(tictac_getInput, positive2){
 
 }
 
-TEST(tictac_checkWinner, negative){
+TEST(game_checkWinner, negative){
 
 
     ASSERT_FALSE(CheckWinner());
 
 }
 
-TEST(tictac_checkWinner, positive){
+TEST(game_checkWinner, positive){
     //const int X = 1;		// Player X
     //const int O = 2;		// Player Y
     player = X;
@@ -118,7 +118,7 @@ TEST(tictac_checkWinner, positive){
 }
 
 
-TEST(tictac_checkWinner, positive3){
+TEST(game_checkWinner, positive3){
     //    player = X;
     //возвращаем игровое поле в исходное состояние
     board[1] = '2';
@@ -135,7 +135,7 @@ TEST(tictac_checkWinner, positive3){
 
 
 }
-TEST(tictac_checkWinner, positive4){
+TEST(game_checkWinner, positive4){
     //const int X = 1;		// Player X
     //const int O = 2;		// Player Y
     //возвращаем игровое поле в исходное состояние

@@ -7,7 +7,7 @@ SOURCES += *.cpp
 
 
 HEADERS += \
-    tictac.h
+    game.h
 
 
 

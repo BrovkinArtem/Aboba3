@@ -1,5 +1,5 @@
-#ifndef TICTAC_H
-#define TICTAC_H
+#ifndef GAME_H
+#define GAME_H
 
 //hello world
 //

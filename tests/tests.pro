@@ -15,8 +15,8 @@ QMAKE_CFLAGS += -fprofile-arcs -ftest-coverage
 LIBS += -lgcov
 
 
-HEADERS +=  test_tictac.h\
-            ../app/tictac.h
+HEADERS +=  test_game.h\
+            ../app/game.h
 
 
 SOURCES +=     main.cpp \
