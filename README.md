@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/BrovkinArtem/no-naaaame.svg?branch=main)](https://travis-ci.com/BrovkinArtem/no-naaaame)
+[![Build Status](https://travis-ci.com/BrovkinArtem/Aboba3.svg?branch=main)](https://travis-ci.com/BrovkinArtem/Aboba3)
 [![Coverage Status](https://coveralls.io/repos/github/BrovkinArtem/no-naaaame/badge.svg?branch=main)](https://coveralls.io/github/BrovkinArtem/no-naaaame?branch=main)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=BrovkinArtem_no-naaaame&metric=alert_status)](https://sonarcloud.io/dashboard?id=BrovkinArtem_no-naaaame)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=BrovkinArtem_no-naaaame&metric=code_smells)](https://sonarcloud.io/dashboard?id=BrovkinArtem_no-naaaame)
